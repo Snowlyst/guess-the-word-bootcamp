@@ -1,13 +1,21 @@
 {
   "files": {
     "main.css": "/guess-the-word-bootcamp/static/css/main.d0753a41.css",
-    "main.js": "/guess-the-word-bootcamp/static/js/main.40c4f781.js",
+    "main.js": "/guess-the-word-bootcamp/static/js/main.5f25f1bc.js",
+    "static/media/chance7.JPG": "/guess-the-word-bootcamp/static/media/chance7.cdc8a028bb699aafb42a.JPG",
+    "static/media/chance6.JPG": "/guess-the-word-bootcamp/static/media/chance6.59ee15a9a93499ade147.JPG",
+    "static/media/chance3.JPG": "/guess-the-word-bootcamp/static/media/chance3.0d0e1756d711c51e5b90.JPG",
+    "static/media/chance5.JPG": "/guess-the-word-bootcamp/static/media/chance5.cea8ec13b8e47997f2e8.JPG",
+    "static/media/chance0.JPG": "/guess-the-word-bootcamp/static/media/chance0.36d3fe9ebf938752b600.JPG",
+    "static/media/chance4.JPG": "/guess-the-word-bootcamp/static/media/chance4.74c81f0e7a1ad407caed.JPG",
+    "static/media/chance2.JPG": "/guess-the-word-bootcamp/static/media/chance2.37b6eae793456ad0d9dc.JPG",
+    "static/media/chance1.JPG": "/guess-the-word-bootcamp/static/media/chance1.0f4af8c393033f67f19a.JPG",
     "index.html": "/guess-the-word-bootcamp/index.html",
     "main.d0753a41.css.map": "/guess-the-word-bootcamp/static/css/main.d0753a41.css.map",
-    "main.40c4f781.js.map": "/guess-the-word-bootcamp/static/js/main.40c4f781.js.map"
+    "main.5f25f1bc.js.map": "/guess-the-word-bootcamp/static/js/main.5f25f1bc.js.map"
   },
   "entrypoints": [
     "static/css/main.d0753a41.css",
-    "static/js/main.40c4f781.js"
+    "static/js/main.5f25f1bc.js"
   ]
 }
