@@ -1,6 +1,14 @@
 import React from "react";
 import { getRandomWord } from "./utils.js";
 import "./App.css";
+import Chance0 from "./pictures/chance0.JPG";
+import Chance1 from "./pictures/chance1.JPG";
+import Chance2 from "./pictures/chance2.JPG";
+import Chance3 from "./pictures/chance3.JPG";
+import Chance4 from "./pictures/chance4.JPG";
+import Chance5 from "./pictures/chance5.JPG";
+import Chance6 from "./pictures/chance6.JPG";
+import Chance7 from "./pictures/chance7.JPG";
 
 class App extends React.Component {
   constructor(props) {
@@ -99,28 +107,28 @@ class App extends React.Component {
       <div className="App">
         <header className="App-header">
           {this.state.chances === 7 ? (
-            <img src="./pictures/chance7.jpg" alt="" width={500} height={250} />
+            <img src={Chance7} alt="" width={500} height={250} />
           ) : null}
           {this.state.chances === 6 ? (
-            <img src="./pictures/chance6.jpg" alt="" width={500} height={250} />
+            <img src={Chance6} alt="" width={500} height={250} />
           ) : null}
           {this.state.chances === 5 ? (
-            <img src="./pictures/chance5.jpg" alt="" width={500} height={250} />
+            <img src={Chance5} alt="" width={500} height={250} />
           ) : null}
           {this.state.chances === 4 ? (
-            <img src="./pictures/chance4.jpg" alt="" width={500} height={250} />
+            <img src={Chance4} alt="" width={500} height={250} />
           ) : null}
           {this.state.chances === 3 ? (
-            <img src="./pictures/chance3.jpg" alt="" width={500} height={250} />
+            <img src={Chance3} alt="" width={500} height={250} />
           ) : null}
           {this.state.chances === 2 ? (
-            <img src="./pictures/chance2.jpg" alt="" width={500} height={250} />
+            <img src={Chance2} alt="" width={500} height={250} />
           ) : null}
           {this.state.chances === 1 ? (
-            <img src="./pictures/chance1.jpg" alt="" width={500} height={250} />
+            <img src={Chance1} alt="" width={500} height={250} />
           ) : null}
           {this.state.chances === 0 ? (
-            <img src="./pictures/chance0.jpg" alt="" width={500} height={250} />
+            <img src={Chance0} alt="" width={500} height={250} />
           ) : null}
           <h3>Word Display</h3>
           {this.generateWordDisplay()}
